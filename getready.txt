@@ -1,38 +1,53 @@
-Let us proceed with configuring Git with your username and email. In order to do that, type the following commands in your Git Bash:
+-->Let us proceed with configuring Git with your username and email. In order to do that, type the following commands in your Git Bash:
 
-git config - - global user.name "<your name>"
+	git config - - global user.name "<your name>"
 
-git config - - global user.email "<your email>"
+	git config - - global user.email "<your email>"
 
-If you want to view all your configuration details, use the command below:
+-->If you want to view all your configuration details, use the command below:
 
-git config - - list
+	git config - - list
 
-Clear screen : clear
+	Clear screen : clear
 
-CREATE REPOSITORY:
+--> CREATE REPOSITORY:
 _______________________
 
-To create the project 
-git init
-(git folder is created)
+	To create the project 
+	git init
+	(git folder is created)
 
-SYNCING REPOSITORIES:
+--> SYNCING REPOSITORIES:
 _______________________
 
-To add the link to where the remote repositories
-git add origin <link>
-eg: git remote add origin "the link of remote repositories in below download button"
+	To add the link to where the remote repositories
+	git add origin <link>
+	eg: git remote add origin "the link of remote repositories in below download button"
 
-To change remote repostitories:
-git remote set-url "https://github.com/Username/repositoriesname.git"
+	To change remote repostitories:
+	git remote set-url "https://github.com/Username/repositoriesname.git"
 
-pull files
-git pull : git pull origin master
+	pull files
+	git pull : git pull origin master
 
-Push files
-git push : git push
+	Push files
+	git push :
+
+-->MAKING CHANGES:
+______________________________
+	
+	Tells you which files are added to index  and are ready to commit
+	git status (displays the unadded files i.e, tracked)
+
+	Lets you add files to your index
+	git add 
+	eg:git add fileame.txt (if text file)
+
+	Recorded snapshot of the repositories:
+	git commit 
+	eg: git commit -m "first commit in local repositories"
 
 
-For angular project
+
+
 
