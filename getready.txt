@@ -1,0 +1,38 @@
+Let us proceed with configuring Git with your username and email. In order to do that, type the following commands in your Git Bash:
+
+git config - - global user.name "<your name>"
+
+git config - - global user.email "<your email>"
+
+If you want to view all your configuration details, use the command below:
+
+git config - - list
+
+Clear screen : clear
+
+CREATE REPOSITORY:
+_______________________
+
+To create the project 
+git init
+(git folder is created)
+
+SYNCING REPOSITORIES:
+_______________________
+
+To add the link to where the remote repositories
+git add origin <link>
+eg: git remote add origin "the link of remote repositories in below download button"
+
+To change remote repostitories:
+git remote set-url "https://github.com/Username/repositoriesname.git"
+
+pull files
+git pull : git pull origin master
+
+Push files
+git push : git push
+
+
+For angular project
+
